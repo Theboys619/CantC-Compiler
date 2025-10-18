@@ -1,0 +1,24 @@
+class Animal {
+    let name;
+    let type;
+
+    func Animal(name) {
+        this.name = name;
+    }
+
+    func getName() {
+        return this.name;
+    }
+
+    func print() {
+        print("Animal:", this.name);
+        return this;
+    }
+}
+
+func main() {
+    let animal = Animal("Dog");
+    animal.print().print().print().print();
+
+    print("animal.getName():", animal.getName());
+}

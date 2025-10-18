@@ -1,0 +1,16 @@
+.ninja_log
+build
+build/*
+*.o
+*.obj
+*.exe
+*.dll
+*.out
+*.out.dbg
+build.ninja
+.vscode
+tests/*.c
+tests/*.cnb
+tests/*.cnb.dbg
+*.cnb
+*.cnb.dbg
